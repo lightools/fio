@@ -144,7 +144,7 @@ class Transaction extends Object {
         }
 
         $property = $this->mapping[$id];
-        $this->$property = $value;
+        $this->$property = (string) $value;
     }
 
     /**

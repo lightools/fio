@@ -46,7 +46,9 @@ class FioClientTest extends TestCase {
         Assert::count(2, $transactions);
         Assert::same(-5000.0, $transactions[0]->getAmount());
         Assert::type(DateTime::class, $transactions[0]->getMoveDate());
+        Assert::same('9275966001', $transactions[0]->getMoveId());
         Assert::same('Comment', $transactions[0]->getComment());
+        Assert::same('994', $transactions[0]->getMessage());
     }
 
     public function testSendOrders() {
