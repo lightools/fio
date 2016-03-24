@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<responseImport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.fio.cz/schema/responseImportIB.xsd">
+    <result>
+        <errorCode>2</errorCode>
+        <idInstruction>1894800</idInstruction>
+        <status>warning</status>
+        <sums>
+            <sum id="CZK">
+                <sumDebet>100675.00</sumDebet>
+            </sum>
+        </sums>
+    </result>
+    <ordersDetails>
+        <detail id="1">
+            <messages>
+                <message status="warning" errorCode="105">Upozornění: V seznamu zadaných pokynů byl nalezen pokyn s identickými parametry. Ujistěte se prosím, zda se nejedná o chybu a zda chcete opravdu zadat další pokyn.</message>
+            </messages>
+        </detail>
+        <detail id="2">
+            <messages>
+                <message status="warning" errorCode="105">Upozornění: V seznamu zadaných pokynů byl nalezen pokyn s identickými parametry. Ujistěte se prosím, zda se nejedná o chybu a zda chcete opravdu zadat další pokyn.</message>
+            </messages>
+        </detail>
+    </ordersDetails>
+</responseImport>
