@@ -34,7 +34,7 @@ try {
     }
 
 } catch (Lightools\Fio\FioException $e) { // or catch specific exceptions
-    $account->resetBreakpoint($lastKnownMoveId);
+    $account->setBreakpointById($lastKnownMoveId);
     // further processing
 }
 ```
