@@ -36,6 +36,13 @@ class FioAccount extends Object {
     }
 
     /**
+     * @return string
+     */
+    public function getBankNumber() {
+        return $this->bankNumber;
+    }
+
+    /**
      * @param TransactionOrder[] $orders
      * @throws FioFailureException
      * @throws FioWarningException
