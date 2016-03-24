@@ -12,6 +12,11 @@ class FioAccount extends Object {
     /**
      * @var string
      */
+    const BANK_CODE = '2010';
+
+    /**
+     * @var string
+     */
     private $bankNumber;
 
     /**
