@@ -63,6 +63,11 @@ try {
 }
 ```
 
+## Logging traffic
+
+It is very useful to store HTTP requests and responses when communicating with Fio API so you can easily determine all possible problems.
+Library [lightools/bitbang-http-logger](https://github.com/lightools/bitbang-http-logger) provides this functionality.
+
 ## How to run tests
 
 ```sh
