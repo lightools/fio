@@ -14,6 +14,9 @@
         "nette/tester": "~1.7.1",
         "mockery/mockery": "~0.9.4"
     },
+    "suggest": {
+        "lightools/bitbang-http-logger": "Log all HTTP traffic to Fio API easily!"
+    },
     "autoload": {
         "classmap": ["src/"]
     }
