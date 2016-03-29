@@ -2,6 +2,7 @@
 
 namespace Lightools\Fio;
 
+use DateTime;
 use Nette\Object;
 
 /**

@@ -7,6 +7,7 @@ use Bitbang\Http\Clients\CurlClient;
 use Bitbang\Http\Request;
 use Bitbang\Http\Response;
 use CURLFile;
+use DateTime;
 use Lightools\Xml\XmlException;
 use Lightools\Xml\XmlLoader;
 use Nette\Object;
