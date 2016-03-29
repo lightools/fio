@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Lightools\Tests;
 
 use Bitbang\Http\Clients\CurlClient;
 use Bitbang\Http\Request;
