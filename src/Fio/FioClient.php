@@ -145,6 +145,8 @@ class FioClient extends Object {
 
         $xml = new XMLWriter;
         $xml->openMemory();
+        $xml->setIndent(TRUE);
+        $xml->setIndentString('    ');
         $xml->startDocument('1.0', 'UTF-8');
         $xml->startElement('Import');
         $xml->writeAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
