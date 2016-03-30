@@ -158,13 +158,13 @@ class FioClient extends Object {
             $xml->writeElement('amount', number_format($order->getAmount(), 2, '.', ''));
             $xml->writeElement('accountTo', $order->getAccountTo());
             $xml->writeElement('bankCode', $order->getBankCode());
+            $xml->writeElement('ks', $order->getConstantSymbol());
             $xml->writeElement('vs', $order->getVariableSymbol());
             $xml->writeElement('ss', $order->getSpecificSymbol());
-            $xml->writeElement('ks', $order->getConstantSymbol());
             $xml->writeElement('date', $order->getMaturityDate()->format('Y-m-d'));
             $xml->writeElement('messageForRecipient', $order->getMessageForRecipient());
-            $xml->writeElement('paymentType', $order->getPaymentType());
             $xml->writeElement('comment', $order->getComment());
+            $xml->writeElement('paymentType', $order->getPaymentType());
             $xml->endElement();
         }
 
