@@ -148,133 +148,133 @@ class Transaction extends Object {
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getMoveId() {
         return $this->moveId;
     }
 
     /**
-     * @var DateTime
+     * @return DateTime
      */
     public function getMoveDate() {
         return new DateTime($this->moveDate);
     }
 
     /**
-     * @var float
+     * @return float
      */
     public function getAmount() {
         return (float) $this->amount;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getCurrency() {
         return $this->currency;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getAccount() {
         return $this->account;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getAccountName() {
         return $this->accountName;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getBankCode() {
         return $this->bankCode;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getBankName() {
         return $this->bankName;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getConstantSymbol() {
         return $this->constantSymbol;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getVariableSymbol() {
         return $this->variableSymbol;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getSpecificSymbol() {
         return $this->specificSymbol;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getUserIdentification() {
         return $this->userIdentification;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getMessage() {
         return $this->message;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getType() {
         return $this->type;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getPerformed() {
         return $this->performed;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getSpecification() {
         return $this->specification;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getComment() {
         return $this->comment;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getBic() {
         return $this->bic;
     }
 
     /**
-     * @var string
+     * @return string
      */
     public function getInstructionId() {
         return $this->instructionId;
