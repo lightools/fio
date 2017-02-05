@@ -26,7 +26,7 @@ class FioAccount extends Object {
     private $token;
 
     /**
-     * @var Manager
+     * @var FioClient
      */
     private $fio;
 
